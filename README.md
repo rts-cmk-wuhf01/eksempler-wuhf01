@@ -1,2 +1,3 @@
 # eksempler-wuhf01
-Små eksempler
+
+Små kode-eksempler.
