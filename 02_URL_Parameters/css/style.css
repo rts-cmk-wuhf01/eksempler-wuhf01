@@ -1,0 +1,76 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: Verdana;
+	font-size: 13px;
+	margin: 15px;
+}
+
+h1 {
+	margin-bottom: 15px;
+}
+
+h2 {
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+
+p {
+	margin-bottom: 15px;
+}
+
+hr {
+	margin: 15px 0px;
+}
+
+.actions {
+	overflow: hidden;
+}
+
+	.actions em {
+		display: block;
+		margin-bottom: 8px;
+		color: #db4c00;
+		font-style: normal;
+	}
+
+	.actions i {
+		display: block;
+		float: left;
+		margin-left: 20px;
+		line-height: 30px;
+		color: #888;
+		font-style: normal;
+	}
+
+	.action {
+		color: #000;
+		background-color: #e1e1e1;
+		border: 1px solid #888;
+		border-radius: 4px;
+		text-decoration: none;
+		line-height: 30px;
+
+		height: 30px;
+		min-width: 180px;
+		padding: 0px 4px;
+		margin-bottom: 8px;
+		display: block;
+		float: left;
+		clear: left;
+		text-align: center;
+		cursor: pointer;
+		box-sizing: border-box;
+	}
+
+	.action-danger {
+		border-color: red;
+		background-color: #ffd5d5;
+	}
+
+	.action:focus {
+		outline: none;  /* Prevents the blue border that appears around the button after clicking it */
+	}

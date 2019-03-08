@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+	<title>URL Parameters - Example</title>
+</head>
+<body>
+
+	<h1>URL Parameters - Example</h1>
+
+	<div class="example-description">
+		<p>This example demonstrates how to set and get URL parameters.</p>
+
+		<p>
+			<strong>Setting the parameters</strong> does not require Javascript. <br>
+			Check the HTML code to see how I set the parameters.
+		</p>
+
+		<p>
+			<strong>Getting the parameters</strong> is done using Javascript and without reloading the page.
+		</p>
+	</div>
+
+	<!-- A href that starts with a question mark will automatically append the name of the HTML file before the question mark -->
+
+	<h2>Set URL parameters</h2>
+
+	<div class="actions">
+		<em>Check the <strong>URL</strong> after clicking these</em>
+		<a href="?" class="action action-danger">Clear parameters</a> <i>(Reloads the page)</i>
+		<a href="?productID=3" class="action">Set productID</a> <i>(Reloads the page)</i>
+		<a href="?categoryID=1" class="action">Set categoryID</a> <i>(Reloads the page)</i>
+		<a href="?productID=3&categoryID=1" class="action">Set both parameters</a> <i>(Reloads the page)</i>
+	</div>
+
+
+
+	<h2>Get URL parameters</h2>
+
+	<div class="actions">
+		<em>Check the <strong>console</strong> after clicking this.</em>
+		<button id="btn-get-parameters" class="action">Get parameters</button> <i>(Does NOT reload the page)</i>
+	</div>
+
+	
+
+	<script src="js/functions.js"></script>
+	<script src="js/index.js"></script>
+</body>
+</html>
